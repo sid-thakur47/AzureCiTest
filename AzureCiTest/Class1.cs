@@ -1,19 +1,16 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Firefox;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace AzureCiTest
 {
     public class AzureTest
     {
-        IWebDriver driver = new FirefoxDriver();
+        IWebDriver driver = new ChromeDriver();
 
         [Test]
         public void TestNews()
