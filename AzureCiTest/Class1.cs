@@ -11,7 +11,7 @@ namespace AzureCiTest
 {
     public class AzureTest
     {
-        IWebDriver driver = new FirefoxDriver();
+        IWebDriver driver = new ChromeDriver();
 
         [Test]
         public void TestNews()
